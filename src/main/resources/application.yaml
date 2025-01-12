@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: fmgc
+
+management:
+  endpoint:
+    prometheus:
+      access: read-only
+    health:
+      access: read-only
+      probes:
+        enabled: true
+
+  endpoints:
+    access:
+      default: none
+    web:
+      exposure:
+        include: "*"
