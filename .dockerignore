@@ -1,0 +1,37 @@
+# Ignore the Dockerfile
+Dockerfile
+
+# Ignore the .dockerignore file itself
+.dockerignore
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore build artifacts
+dist
+build
+
+# Ignore Gradle build directory
+.gradle
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore JAR files
+*.jar
+
+# Ignore WAR files
+*.war
+
+# Ignore temporary files created by the IDE
+*.swp
+*.swo
+*.idea
+*.iml
+*.ipr
+*.iws
+
+# Ignore Maven target directory
+target
